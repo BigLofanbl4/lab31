@@ -1,6 +1,26 @@
 # !/usr/bin/env python3
 # -*- coding: utf-8 -
 
+#Решите задачу: в данной программе создается анимация круга, который движется от левой
+#границы холста до правой:
+#from tkinter import *
+#def motion():
+#   c.move(ball, 1, 0)
+#   if c.coords(ball)[2] < 300:
+#       root.after(10, motion)
+#root = Tk()
+#c = Canvas(root, width=300, height=200,
+#          bg="white")
+#c.pack()
+#ball = c.create_oval(0, 100, 40, 140,
+#                    fill='green')
+#motion()
+#root.mainloop()
+#Выражение c.coords(ball) возвращает список текущих координат объекта (в данном
+#случае это ball). Третий элемент списка соответствует его второй координате x.
+#Метод after вызывает функцию, переданную вторым аргументом, через количество
+#миллисекунд, указанных первым аргументом.
+
 from tkinter import *
 
 
