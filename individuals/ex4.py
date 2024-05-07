@@ -1,6 +1,8 @@
 # !/usr/bin/env python3
 # -*- coding: utf-8 -
 
+#Решите задачу: Создайте на холсте подобное изображение:
+
 import tkinter as tk
 
 
